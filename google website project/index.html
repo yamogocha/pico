@@ -1,0 +1,126 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta name="viewport" conten"width=device-width, initial-scale=1.0">
+		<title>Google Website</title>
+		<link rel="stylesheet" href="css/main.css">
+		<script src="main.js"></script>
+	</head>
+
+	<body>
+		<div class="main">
+			<div class="logo-div">
+				<img src="img/googlelogo.png" class="logo">
+			</div>	
+			<div class="search-div">
+				<div class="input-div">
+					<input class="search">
+					<div class="voice" onmouseover="" ></div>
+				</div>
+				<div class="two-btn-div">
+					<input type="submit" class="btn" value="Google Search">
+					<input type="submit" class="btn" value="I'm Feeling Lucky">
+				</div>
+			</div>	
+			<div class="top-div">
+				<a class="navbutton text" href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?tab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1">Gmail</a>
+
+				<a class="navbutton text" href="https://www.google.com/imghp?hl=en&tab=wi&ei=G1m1Vv-vB5S4jwPUpaD4BQ&ved=0EKouCBYoAQ">Images</a>
+
+				<div class="options navbutton" onclick="showOptions();">&nbsp;</div>
+				<div id="option-box" class="option-box" style="display:none;">
+					<ul class="op-frame">
+						<li class="frame">
+							<a class="box" href="https://myaccount.google.com/intro?utm_source=OGB">
+								<span class="image"></span>
+								<span class="title">My Account</span>
+							</a>
+						</li>
+						<li class="s-frame frame">
+							<a class="s-box box" href="https://www.google.com/webhp?tab=ww&ei=YRC3Vt20CIjCjwOewp_wDA&ved=0EKkuCAEoAQ">
+								<span class="s-image image" style="background-position: 0 -1035px;"></span>
+								<span class="s-title title">Search</span>
+							</a>
+						</li>
+						<li class="m-frame frame">
+							<a class="m-box box" href="https://www.google.com/webhp?tab=ww&ei=YRC3Vt20CIjCjwOewp_wDA&ved=0EKkuCAEoAQ">
+								<span class="m-image image" style="background-position: 0 -69px;"></span>
+								<span class="m-title title">Maps</span>
+							</a>
+						</li>
+						<li class="yt-frame frame">
+							<a class="yt-box box" href="https://www.youtube.com/">
+								<span class="yt-image image" style="background-position: 0 -1932px;"></span>
+								<span class="yt-title title">YouTube</span>
+							</a>
+						</li>
+						<li class="p-frame frame">
+							<a class="p-box box" href="https://play.google.com/store?hl=en&tab=w8">
+								<span class="p-image image" style="background-position: 0 -1242px;"></span>
+								<span class="p-title title">play</span>
+							</a>
+						</li>
+						<li class="n-frame frame">
+							<a class="n-box box" href="https://news.google.com/nwshp?hl=en&tab=wn&ei=YRC3Vt20CIjCjwOewp_wDA&ved=0EKkuCAUoBQ">
+								<span class="n-image image" style="background-position: 0 -483px;"></span>
+								<span class="n-title title">News</span>
+							</a>
+						</li>
+						<li class="g-frame frame">
+							<a class="g-box box" href="https://www.google.com/intl/en/mail/help/about.html">
+								<span class="g-image image" style="background-position: 0 -966px;"></span>
+								<span class="g-title title">Gmail</span>
+							</a>
+						</li>
+						<li class="d-frame frame">
+							<a class="d-box box" href="https://www.google.com/intl/en/drive/">
+								<span class="d-image image" style="background-position: 0 -1518px;"></span>
+								<span class="d-title title">Drive</span>
+							</a>
+						</li>
+						<li class="c-frame frame">
+							<a class="c-box box" href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/render?tab%3Dwc&followup=https://calendar.google.com/calendar/render?tab%3Dwc&scc=1#identifier">
+								<span class="c-image image" style="background-position: 0 -759px;"></span>
+								<span class="c-title title">Calendar</span>
+							</a>
+						</li>
+						<li class="go-frame frame">
+							<a class="go-box box" href="https://plus.google.com/collections/featured">
+								<span class="go-image image" style="background-position: 0 -1863px;"></span>
+								<span class="go-title title">Calendar</span>
+							</a>
+						</li>
+						<li class="t-frame frame">
+							<a class="t-box box" href="https://translate.google.com/?hl=en&tab=wT">
+								<span class="t-image image" style="background-position: 0 -207px;"></span>
+								<span class="t-title title">Calendar</span>
+							</a>
+						</li>
+						<li class="p-frame frame">
+							<a class="p-box box" href="https://www.google.com/photos/about/">
+								<span class="p-image image" style="background-position: 0 -690px;"></span>
+								<span class="p-title title">Calendar</span>
+							</a>
+						</li>
+					</ul>
+					<a class="more" href="">More</a>
+				</div>
+
+				<a class="si-btn navbutton text" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a>
+			</div>
+			<div class="bottom-div">
+				<a class="navbutton text bottom" href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
+				<a class="navbutton text bottom" href="https://www.google.com/services/?fg=1">Business</a>
+				<a class="navbutton text bottom" href="https://www.google.com/intl/en/about/">About</a>
+				<div class="bottom-right">
+					<a class="navbutton text bottom" href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a>
+					<a class="navbutton text bottom" href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a>
+					<a class="navbutton text bottom">Settings</a>
+				</div>
+			</div>
+
+
+		</div>
+	</body>
+</html>
